@@ -1,0 +1,18 @@
+@import url("vendor/modern-normalize.min.css");
+
+body {
+    text-align: center;
+}
+
+iframe {
+    border: 0;
+    width: 20rem;
+}
+
+main section {
+    margin-top: 3rem;
+}
+
+p {
+    color: darkgray;
+}

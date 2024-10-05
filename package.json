@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "prettier": {
+    "embeddedLanguageFormatting": "off"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard",
+    "ignoreFiles": [
+      "dist/styles/vendor/*"
+    ]
+  },
+  "devDependencies": {
+    "html-validate": "^8.24.0",
+    "prettier": "^3.3.3",
+    "stylelint-config-standard": "^36.0.1"
+  }
+}
