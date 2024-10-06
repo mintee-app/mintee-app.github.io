@@ -17,7 +17,12 @@ p {
     color: darkgray;
 }
 
+h1, h2 {
+    font-weight: normal;
+}
+
 .logo {
     font-style: italic;
+    font-weight: bold;
     color: #009661;
 }
