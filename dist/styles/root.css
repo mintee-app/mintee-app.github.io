@@ -16,3 +16,8 @@ main section {
 p {
     color: darkgray;
 }
+
+.logo {
+    font-style: italic;
+    color: #009661;
+}
