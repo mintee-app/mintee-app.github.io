@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Works in browser, local-first, free and open source."
+      content="Runs anywhere, local-first, free and open source."
     />
 
-    <meta property="og:title" content="mintee – minimalist time tracker" />
+    <meta property="og:title" content="mintee – minimalist time tracking app" />
     <meta property="og:type" content="website" />
     <meta
       property="og:description"
-      content="Works in browser, local-first, free and open source."
+      content="Runs anywhere, local-first, free and open source."
     />
     <meta property="og:image" content="https://mintee.app/social.png" />
     <meta property="og:url" content="https://mintee.app" />
     <meta name="twitter:card" content="summary_large_image" />
 
-    <title>mintee – minimalist time tracker</title>
+    <title>mintee – minimalist time tracking app</title>
 
     <link rel="icon" href="/favicon.ico" sizes="32x32" />
     <link rel="icon" href="/icon.svg" type="image/svg+xml" />
@@ -33,12 +33,31 @@
   <body>
     <header>
       <h1><span class="logo">mintee</span> is a minimalist time tracker</h1>
+      <p>Launching early <time datetime="2025">2025</time></p>
     </header>
 
     <main>
-      <p>Launching early 2025</p>
+      <div class="features">
+        <article>
+          <h2>Runs Anywhere</h2>
+          Works perfectly in the browser. But can be installed on your mobile or
+          desktop for a user experience like that of a platform-specific app.
+        </article>
 
-      <section>
+        <article>
+          <h2>Local-first</h2>
+          You own your data, and the network is optional. Once loaded, the app
+          works even when you're offline. No spinners.
+        </article>
+
+        <article>
+          <h2>Free and Open Source</h2>
+          Start tracking for free! No registration or credit card is required.
+          Feeling adventurous? Download the source code and hack on it!
+        </article>
+      </div>
+
+      <section class="sing-up">
         <h2>Sign up for early access</h2>
         <p>You will be notified when the app launches. No spam.</p>
         <iframe
@@ -46,10 +65,10 @@
           title="Sign up for early access"
         ></iframe>
       </section>
-
-      <script>
-        var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}
-      </script>
     </main>
+
+    <script>
+      var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}
+    </script>
   </body>
 </html>

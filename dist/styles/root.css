@@ -1,16 +1,13 @@
 @import url("vendor/modern-normalize.min.css");
 
 body {
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+header {
     text-align: center;
-}
-
-iframe {
-    border: 0;
-    width: 20rem;
-}
-
-main section {
-    margin-top: 3rem;
 }
 
 p {
@@ -21,8 +18,43 @@ h1, h2 {
     font-weight: normal;
 }
 
+h2 {
+    font-size: 1.17em;
+}
+
 .logo {
     font-style: italic;
     font-weight: bold;
     color: #009661;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+
+    article {
+        flex-basis: 15rem;
+
+        h2 {
+            font-weight: bold;
+        }
+    }
+}
+
+.sing-up {
+    margin: 2.25rem auto 0;
+    width: min(100%, 25rem);
+
+    iframe {
+        border: 0;
+        width: 100%;
+    }
+}
+
+@media (width <= 33rem) {
+    .features article {
+        flex-basis: 100%;
+    }
 }
